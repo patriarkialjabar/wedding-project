@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-inline-size: 725px;
+  margin: auto;
+  font-family: system-ui, sans-serif;
+  color: #1B281B;
+}
+
+body img {
+  max-width: 100%;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul {
+  list-style: none;
+}
+
+header nav ul:last-child {
+  display: flex;
+  gap: 1rem;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #1B281B;
+}
+
+main section {
+  margin-block: 2rem;
+}
+
+main section h1 {
+  text-align: center;
+  font-size: 5.5rem;
+}
+
+main section h2 {
+  font-size: 2rem;
+}
+
+main section h3 {
+  font-size: 1.18rem;
+}
+
+main section div ol, ul{
+  margin: 0;
+  padding: 0;
+  list-style-position: inside;
+}
+
+footer {
+  border: 0.3rem;
+  border-style: solid;
+  border-color: #6E84CF;
+  margin-block: 1rem;
+  padding-block: 0.5rem;
+  text-align: center;
+  background-color: #22466C;
+  color: #ffffff;
+}
+
+.box {
+  display: flex;
+  gap: 3rem;
+}
+
+.start-flex, .end-flex {
+  flex: 0 0 calc(50% - 1.5rem); /* potong setengah gap */
+}
+
+.background-image {
+  border: 0.3rem solid #4676A9;
+  background-image: url("images/simple-steps.jpg");
+  padding-inline: 1.6rem;
+  padding-block: 0.6rem;
+  color: #ffffff;
+}
+
+.callout {
+  border: 0.3rem solid #6E84CF;
+  margin-block: 1rem;
+  padding-inline: 0.5rem;
+  padding-block: 0.5rem;
+  text-align: center;
+  background-color: #22466C;
+  color: #ffffff;
+}
+
+.margin-block-start-0 {
+  margin-block-start: 0;
+}
+
+.blue {
+  color: #4676A9;
+}
+
+.orange {
+  color: #cb721c;
+}
